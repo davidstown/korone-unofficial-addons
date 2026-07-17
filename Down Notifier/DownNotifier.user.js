@@ -12,7 +12,7 @@
     'use strict';
 
     const CHECK_INTERVAL_MS = 60000;
-    const VIDEO_URL = 'https://cdn.jsdelivr.net/gh/coopers1337/Down-Notifier/Down%20Notifier/TheCup.mp4';
+    const VIDEO_URL = 'https://cdn.jsdelivr.net/gh/coopers1337/Dave-Blunts/TheCup.mp4';
     const OVERLAY_ID = 'pekora-down-overlay';
     const THEME_MARKER_ID = 'theme-2016-enabled';
 
