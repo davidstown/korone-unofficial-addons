@@ -55,7 +55,7 @@ This addon loads one external file:
 
 - **TheCup.mp4**
 - Hosted on **jsDelivr**
-- Source: https://github.com/coopers1337/Down-Notifier
+- Source: https://github.com/coopers1337/Dave-Blunts
 
 ## Limitations
 
