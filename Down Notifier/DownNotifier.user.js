@@ -111,13 +111,15 @@
     }
 
     function checkSite() {
-        const down = !document.getElementById(THEME_MARKER_ID);
-        if (down && !overlayShown) {
-            overlayShown = true;
-            createOverlay();
-        } else if (!down && overlayShown) {
-            removeOverlay();
-        }
+    const primaryMarker = document.getElementById(THEME_MARKER_ID);
+    const fallbackMarker = document.querySelector('.navbar-toggler-icon');
+    const down = !primaryMarker && !fallbackMarker;
+    if (down && !overlayShown) {
+        overlayShown = true;
+        createOverlay();
+    } else if (!down && overlayShown) {
+        removeOverlay();
+    }
     }
 
     checkSite();
