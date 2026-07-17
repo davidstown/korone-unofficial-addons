@@ -50,8 +50,8 @@ None required:
 
 ## External Resources
 
-- **TheCup.mp4**, hosted via **jsDelivr**
-- Source: https://github.com/coopers1337/Dave-Blunts
+* **GitHub** (stores the video file): https://github.com/coopers1337/Dave-Blunts/blob/main/TheCup.mp4
+* **jsDelivr** (serves the video via CDN, pulling from the GitHub repo above): https://cdn.jsdelivr.net/gh/coopers1337/Dave-Blunts/TheCup.mp4
 
 ## Limitations
 
